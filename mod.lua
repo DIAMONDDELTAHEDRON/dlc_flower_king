@@ -3,7 +3,6 @@ function Mod:init()
 end
 
 function Mod:postInit()
-    -- Game.stage:addFX(VHSFilterFX(), "vhs")
 end
 
 function Mod:onFootstep(char, num)
