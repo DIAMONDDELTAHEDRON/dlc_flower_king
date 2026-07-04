@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.11" tiledversion="1.12.1" name="grassdiner" tilewidth="40" tileheight="40" tilecount="256" columns="8">
+<tileset version="1.10" tiledversion="1.12.1" name="grassdiner" tilewidth="40" tileheight="40" tilecount="256" columns="8">
  <editorsettings>
   <export target="grassdiner.lua" format="lua"/>
  </editorsettings>

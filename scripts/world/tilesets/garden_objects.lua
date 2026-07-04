@@ -1,11 +1,11 @@
 return {
-  version = "1.11",
+  version = "1.10",
   luaversion = "5.1",
   tiledversion = "1.12.1",
   name = "garden_objects",
   class = "",
-  tilewidth = 68,
-  tileheight = 66,
+  tilewidth = 120,
+  tileheight = 80,
   spacing = 0,
   margin = 0,
   columns = 0,
@@ -23,7 +23,7 @@ return {
   },
   properties = {},
   wangsets = {},
-  tilecount = 18,
+  tilecount = 20,
   tiles = {
     {
       id = 0,
@@ -52,6 +52,12 @@ return {
     {
       id = 4,
       image = "../../../assets/sprites/world/maps/garden/flower_bg_d_dark.png",
+      width = 22,
+      height = 40
+    },
+    {
+      id = 18,
+      image = "../../../assets/sprites/world/maps/garden/flower_bg_d_dying.png",
       width = 22,
       height = 40
     },
@@ -132,6 +138,12 @@ return {
       image = "../../../assets/sprites/world/maps/garden/wheat_h.png",
       width = 21,
       height = 58
+    },
+    {
+      id = 19,
+      image = "../../../assets/sprites/world/maps/garden/highlight.png",
+      width = 120,
+      height = 80
     }
   }
 }
