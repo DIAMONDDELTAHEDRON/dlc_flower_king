@@ -32,9 +32,10 @@
             "scaleInEditor": 1
         }
     },
-    "last.exportedFilePath": "C:/Users/diamo/AppData/Roaming/LOVE/dpr/mods/dlc_flower_king/scripts/world/tilesets",
+    "last.exportedFilePath": "C:/Users/diamo/AppData/Roaming/LOVE/dpr/mods/dlc_flower_king/scripts/world/maps",
     "last.imagePath": "C:/Users/diamo/AppData/Roaming/LOVE/dpr/mods/dlc_flower_king/assets/sprites/world/maps/garden",
     "map.height": 12,
+    "map.lastUsedExportFilter": "Lua files (*.lua)",
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 40,
     "map.tileWidth": 40,
