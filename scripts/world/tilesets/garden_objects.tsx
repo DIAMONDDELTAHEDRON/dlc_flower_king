@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.11" tiledversion="1.12.1" name="garden_objects" tilewidth="68" tileheight="66" tilecount="18" columns="0">
+<tileset version="1.10" tiledversion="1.12.1" name="garden_objects" tilewidth="120" tileheight="80" tilecount="20" columns="0">
  <grid orientation="orthogonal" width="1" height="1"/>
  <tile id="0">
   <image source="../../../assets/sprites/world/maps/garden/flower_bg_a.png" width="7" height="13"/>
@@ -15,6 +15,9 @@
  </tile>
  <tile id="4">
   <image source="../../../assets/sprites/world/maps/garden/flower_bg_d_dark.png" width="22" height="40"/>
+ </tile>
+ <tile id="18">
+  <image source="../../../assets/sprites/world/maps/garden/flower_bg_d_dying.png" width="22" height="40"/>
  </tile>
  <tile id="5">
   <image source="../../../assets/sprites/world/maps/garden/flower_bg_e_a.png" width="27" height="42"/>
@@ -54,5 +57,8 @@
  </tile>
  <tile id="17">
   <image source="../../../assets/sprites/world/maps/garden/wheat_h.png" width="21" height="58"/>
+ </tile>
+ <tile id="19">
+  <image source="../../../assets/sprites/world/maps/garden/highlight.png" width="120" height="80"/>
  </tile>
 </tileset>
