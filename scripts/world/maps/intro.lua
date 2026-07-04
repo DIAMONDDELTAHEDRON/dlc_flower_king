@@ -10,18 +10,22 @@ return {
   tilewidth = 40,
   tileheight = 40,
   nextlayerid = 6,
-  nextobjectid = 18,
-  properties = {},
+  nextobjectid = 19,
+  properties = {
+    ["name"] = "Dark World"
+  },
   tilesets = {
     {
       name = "grassdying",
       firstgid = 1,
-      filename = "../tilesets/grassdying.tsx"
+      filename = "../tilesets/grassdying.tsx",
+      exportfilename = "../tilesets/grassdying.lua"
     },
     {
       name = "garden_objects",
       firstgid = 217,
-      filename = "../tilesets/garden_objects.tsx"
+      filename = "../tilesets/garden_objects.tsx",
+      exportfilename = "../tilesets/garden_objects.lua"
     }
   },
   layers = {
@@ -337,6 +341,25 @@ return {
           gid = 235,
           visible = true,
           properties = {}
+        },
+        {
+          id = 18,
+          name = "savepoint",
+          type = "",
+          shape = "rectangle",
+          x = 260,
+          y = 130,
+          width = 40,
+          height = 40,
+          rotation = 0,
+          opacity = 1,
+          visible = true,
+          properties = {
+            ["text"] = {
+              "* (The earth before you is dry and dead.[wait:5] Something terrible must've happened here.)",
+              "* (You are filled with a certain power.)"
+            }
+          }
         }
       }
     },
